@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formvalidation
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contener">
+        <div class="form">
+            <form action="" onsubmit="return validateform()">
+                <h1 style="color: rgb(45, 148, 14);">FORM VALIDATION</h1>
+                <label for="fname">NAME <sup>*</sup></label>
+                <input type="text" placeholder="enter your name" id="fname">
+                <p id="usernameerror" class="error"></p>
+                <br>
+                
+                <label for="">PASSWORD<sup>*</sup></label>
+                <input type="text" placeholder="password" id="pass">
+                <p id="passworderror" class="error"></p>
+                <br>
+                
+                <label for="">MOBILE NO <sup>*</sup></label>
+                <input type="number" placeholder="enter mobile no" id="mobile">
+                <p id="mobileerror" class="error"></p>
+                <br>
+                
+                <label for="">GMAIL<sup>*</sup></label>
+                <input type="text" placeholder="gmail" id="gmail">
+                <p id="gmailerror" class="error"></p>
+                <br>
+                
+                <label for="">SUBJECT <sup>*</sup></label>
+                <input type="text" placeholder="enter subject name" id="subject">
+                <p id="subjecterror" class="error"></p>
+                <br>
+                
+                <label for="">FULL ADDRESS<sup>*</sup></label>
+                <input type="text" placeholder="youe address" id="add">
+                <p id="adderror" class="error"></p>
+                <br>
+                
+                <input id="sub" type="SUBMIT">
+        </div>
+    </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
