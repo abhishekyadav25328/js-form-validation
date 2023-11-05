@@ -7,9 +7,7 @@ let add = document.getElementById('add')
 let flag = 1
 
 function validateform() {
-    if(firstname){
-        document.getElementById('fname').style.border=none
-    }
+    
     if (firstname.value == "") {
         document.getElementById('usernameerror').innerHTML = 'enter user name'
         flag = 0
